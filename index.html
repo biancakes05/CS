@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Dummy Website</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1 class="logo">DummySite</h1>
+      <nav>
+        <button id="themeToggle">Toggle Theme</button>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <h2>Welcome to the Dummy Website</h2>
+      <p>A small, responsive demo site — ideal for prototyping.</p>
+      <a class="cta" href="#features">Explore Features</a>
+    </section>
+
+    <section id="features" class="cards">
+      <article class="card">
+        <h3>Fast</h3>
+        <p>Minimal and lightweight, with a clear structure to build on.</p>
+      </article>
+      <article class="card">
+        <h3>Responsive</h3>
+        <p>Works on mobile and desktop with a single stylesheet.</p>
+      </article>
+      <article class="card">
+        <h3>Interactive</h3>
+        <p>Small JavaScript file to demonstrate DOM interactivity.</p>
+      </article>
+    </section>
+
+    <section class="contact">
+      <h2>Contact</h2>
+      <form id="contactForm">
+        <label>
+          Name
+          <input name="name" required />
+        </label>
+        <label>
+          Message
+          <textarea name="message" required></textarea>
+        </label>
+        <button type="submit">Send</button>
+      </form>
+      <div id="formResult" aria-live="polite"></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <small>&copy; DummySite • Built for testing</small>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
